@@ -8,8 +8,6 @@ import { IoMdMenu } from "react-icons/io";
 import { GiCampfire } from 'react-icons/gi';
 import { FaRegTimesCircle } from "react-icons/fa";
 
-
-
 function NavBar() {
     const [click, setClick] = useState('Home');
     const [menu, setMenu] = useState(false);
